@@ -18,5 +18,9 @@ module.exports = [
     {
         url: 'https://www.dahlercompany.com/sites/www.dahlercompany.com/files/styles/centerpage_lead/public/fotolia_45139233_m-immobilienmakler-in-berlin-testsieger.jpg?itok=O1nQaFN7',
         title: 'Brandenburger Tor',
+    },
+    {
+        url: 'jajaja.com',
+        title: 'Test wrong URL',
     }
 ];
