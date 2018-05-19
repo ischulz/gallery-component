@@ -22,5 +22,8 @@ module.exports = [
     {
         url: 'jajaja.com',
         title: 'Test wrong URL',
+    },
+    {
+        url: 'https://i.ytimg.com/vi/Tz0HPI1bKsQ/maxresdefault.jpg',
     }
 ];
