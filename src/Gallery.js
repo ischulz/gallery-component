@@ -5,10 +5,11 @@ import ReactSwipe from 'react-swipe';
 import './Gallery.css';
 
 class Gallery extends Component {
+  //next button
   next() {
     this.reactSwipe.next();
   }
-
+  //previous button
   prev() {
     this.reactSwipe.prev();
   }
@@ -16,6 +17,7 @@ class Gallery extends Component {
   render() {
     return (
       <div className="App">
+        {/* Renders swipe component when photos passed in otherwise default picture */}
         {images.length ?
           <div>
             <ReactSwipe ref={reactSwipe => this.reactSwipe = reactSwipe} className="carousel" swipeOptions={{continuous: false}}>
